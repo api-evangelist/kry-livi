@@ -1,0 +1,39 @@
+# KRY | LIVI
+
+> KRY International AB is Europe's largest digital-first healthcare provider, founded in Stockholm in 2015 by Johannes Schildt. It delivers primary and specialist care through a mobile and web app — video and chat consultations with doctors, nurses, psychologists and physiotherapists — combined with a network of physical clinics. The company trades as KRY in Sweden, Norway and Germany and as Livi in the United Kingdom and France, reporting 14M+ patient appointments, 4,000+ healthcare professionals and 60+ clinics.
+
+KRY | LIVI publishes **no public API, developer portal, API reference, SDKs or OpenAPI specification**. Its consumer surface is the KRY / Livi apps; its business surface (NHS, Swedish regions, insurers, employers, Employee Assistance Programmes) is sold and integrated under contract. Patient authentication in Sweden uses BankID. Its published vulnerability disclosure policy names APIs as in scope, but those APIs are not documented publicly.
+
+## Consumer sites
+- [KRY (Sweden)](https://www.kry.se/en/): Swedish home market — digital consultations, clinics, vaccination, psychology.
+- [KRY (Norway)](https://www.kry.no/en/): Norwegian market.
+- [KRY (Germany)](https://www.kry.de/): German market.
+- [Livi (United Kingdom)](https://www.livi.co.uk/): UK brand — online GP appointments, prescriptions, fit notes.
+- [Livi (France)](https://www.livi.fr/): French market.
+
+## Company
+- [About KRY](https://www.kry.se/en/about/): founding, markets, scale.
+- [Press and media](https://www.kry.se/press/): dated Swedish newsroom.
+- [Livi news](https://www.livi.co.uk/news/): UK news and articles.
+- [Careers](https://kry-1719827697.teamtailor.com/): open roles.
+- [Partner solutions](https://uk-partners.livi.co.uk/): NHS, insurers, employers, EAPs.
+
+## Using the service
+- [Prices and payment](https://www.kry.se/en/prices-payment/): Swedish patient-fee and regional pricing.
+- [Get the app](https://app.kry.se/app-link/all): sign-up entry point.
+- [KRY help centre](https://support.kry.se/hc/en-us): Swedish support.
+- [Livi help centre](https://support.livi.co.uk/hc/en-us): UK support.
+
+## Security, privacy and compliance
+- [Vulnerability disclosure policy](https://www.kry.se/vulnerability-disclosure/): report to security@kry.se; safe harbour; no bug bounty; 2-business-day acknowledgement.
+- [Data security and AI](https://www.kry.se/en/information-on-data-ai/): EU data residency, encryption in transit and at rest, how AI transcription and triage handle patient data.
+- [Privacy notice](https://www.kry.se/en/legal/privacy-policy/): DPO contact privacy@kry.se.
+- [Terms and conditions](https://www.kry.se/en/legal/eula/)
+- [Cookie policy](https://www.kry.se/en/legal/cookies/)
+
+## API Evangelist artifacts
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/kry-livi/refs/heads/main/apis.yml): the APIs.json profile for this company.
+- [conformance/kry-livi-conformance.yml](https://raw.githubusercontent.com/api-evangelist/kry-livi/refs/heads/main/conformance/kry-livi-conformance.yml): regulatory and data-protection conformance.
+- [security/kry-livi-vulnerability-disclosure.yml](https://raw.githubusercontent.com/api-evangelist/kry-livi/refs/heads/main/security/kry-livi-vulnerability-disclosure.yml): structured VDP.
+- [security/kry-livi-domain-security.yml](https://raw.githubusercontent.com/api-evangelist/kry-livi/refs/heads/main/security/kry-livi-domain-security.yml): probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture.
+- [well-known/kry-livi-well-known.yml](https://raw.githubusercontent.com/api-evangelist/kry-livi/refs/heads/main/well-known/kry-livi-well-known.yml): recorded absence of /.well-known/ discovery documents.
