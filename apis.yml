@@ -10,6 +10,17 @@ description: 'KRY International AB is Europe''s largest digital-first healthcare
   Assistance Programmes. KRY publishes no public developer portal, API reference or SDKs; its consumer
   and partner surfaces are app- and contract-based, and patient authentication in Sweden runs on BankID.'
 url: https://raw.githubusercontent.com/api-evangelist/kry-livi/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
