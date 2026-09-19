@@ -1,14 +1,13 @@
 aid: kry-livi
 name: KRY | LIVI
-description: 'KRY International AB is Europe''s largest digital-first healthcare provider, founded in
-  Stockholm in 2015 by Johannes Schildt. It delivers primary and specialist care through a mobile and
-  web app — video and chat consultations with doctors, nurses, psychologists and physiotherapists —
-  combined with a network of physical clinics. The company trades as KRY in Sweden, Norway and Germany
-  and as Livi in the United Kingdom and France, and reports more than 14 million patient appointments,
-  4,000+ healthcare professionals and 60+ clinics. Alongside consumer care it sells digital clinical
-  capacity to public payers (including the NHS and Swedish regions), employers, insurers and Employee
-  Assistance Programmes. KRY publishes no public developer portal, API reference or SDKs; its consumer
-  and partner surfaces are app- and contract-based, and patient authentication in Sweden runs on BankID.'
+description: KRY International AB is Europe's largest digital-first healthcare provider, founded in Stockholm in
+  2015 by Johannes Schildt. It delivers primary and specialist care through a mobile and web app — video and chat
+  consultations with doctors, nurses, psychologists and physiotherapists — combined with a network of physical clinics.
+  The company trades as KRY in Sweden, Norway and Germany and as Livi in the United Kingdom and France, and reports
+  more than 14 million patient appointments, 4,000+ healthcare professionals and 60+ clinics. Alongside consumer
+  care it sells digital clinical capacity to public payers (including the NHS and Swedish regions), employers, insurers
+  and Employee Assistance Programmes. KRY publishes no public developer portal, API reference or SDKs; its consumer
+  and partner surfaces are app- and contract-based, and patient authentication in Sweden runs on BankID.
 url: https://raw.githubusercontent.com/api-evangelist/kry-livi/refs/heads/main/apis.yml
 deliveryModel:
   model: saas
@@ -44,6 +43,16 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
+- Company
+- Healthcare
+- Digital Health
+- Telehealth
+- Primary Care
+- Mental Health
+- Europe
+- Sweden
+- United Kingdom
+tags_raw:
 - Company
 - Healthcare
 - Digital Health
@@ -113,6 +122,10 @@ common:
 - name: llms.txt
   type: LLMsTxt
   url: llms/kry-livi-llms.txt
+- type: Website
+  url: https://www.kry.se
+- type: Blog
+  url: https://www.kry.se/press/nyheter/
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
