@@ -64,31 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-KRY International AB is Europe's largest digital-first healthcare provider, founded in Stockholm in 2015 by Johannes Schildt. It delivers primary and specialist care through a mobile and web app — video and chat consultations with doctors, nurses, psychologists and physiotherapists — alongside a network of physical clinics. The company trades as **KRY** in Sweden, Norway and Germany and as **Livi** in the United Kingdom and France, and reports 14M+ patient appointments, 4,000+ healthcare professionals and 60+ clinics. Beyond consumer care it sells digital clinical capacity to public payers (NHS, Swedish regions), employers, insurers and Employee Assistance Programmes.
+KRY International AB is Europe's largest digital-first healthcare provider, founded in Stockholm in 2015 by Johannes Schildt. It delivers primary and specialist care through a mobile and web app — video and chat consultations with doctors, nurses, psychologists and physiotherapists — combined with a network of physical clinics. The company trades as KRY in Sweden, Norway and Germany and as Livi in the United Kingdom and France, and reports more than 14 million patient appointments, 4,000+ healthcare professionals and 60+ clinics. Alongside consumer care it sells digital clinical capacity to public payers (including the NHS and Swedish regions), employers, insurers and Employee Assistance Programmes. KRY publishes no public developer portal, API reference or SDKs; its consumer and partner surfaces are app- and contract-based, and patient authentication in Sweden runs on BankID.
 
-Backed by: index-ventures
+**Areas:** Company · Healthcare · Digital Health · Telehealth · Primary Care · Mental Health · Europe · Sweden · United Kingdom
 
-## API posture
+## KRY | LIVI on APIs.io
 
-**KRY | LIVI publishes no public API.** There is no developer portal, API reference, OpenAPI specification, SDK, CLI, MCP server, webhook catalogue or GitHub organisation. `api.kry.se` and `docs.kry.se` resolve but are not public developer surfaces. Patient authentication in Sweden runs on BankID. Partner and payer integrations are handled under contract rather than through a self-serve API programme. Its vulnerability disclosure policy does name "APIs" as in scope, confirming APIs exist — they are simply not publicly documented.
+Everything profiled for KRY | LIVI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kry-livi/](https://apis.io/providers/kry-livi/)** — or go straight to one of the APIs or properties below.
 
-Accordingly this profile carries identity, security and compliance artifacts only; no spec-derived artifacts are possible, and none have been fabricated.
+### Published properties
 
-## Artifacts
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| Artifact | File | Method |
-|---|---|---|
-| Regulatory / data-protection conformance | `conformance/kry-livi-conformance.yml` | searched |
-| Vulnerability disclosure policy | `security/kry-livi-vulnerability-disclosure.yml` | searched |
-| Domain security posture | `security/kry-livi-domain-security.yml` | probed |
-| `/.well-known/` probe record (all 404) | `well-known/kry-livi-well-known.yml` | searched |
-| llms.txt | `llms/kry-livi-llms.txt` | generated |
+#### Security (2)
 
-## Key links
+Authentication, trust centre, and vulnerability disclosure.
 
-- Website (SE): https://www.kry.se/en/ — Livi (UK): https://www.livi.co.uk/
-- About: https://www.kry.se/en/about/
-- Press: https://www.kry.se/press/
-- Partner solutions: https://uk-partners.livi.co.uk/
-- Vulnerability disclosure: https://www.kry.se/vulnerability-disclosure/ (security@kry.se)
-- Data security and AI: https://www.kry.se/en/information-on-data-ai/
+- [Kry Livi Domain Security](https://apis.io/security/kry-livi/kry-livi-domain-security/)
+- [Kry Livi Vulnerability Disclosure](https://apis.io/security/kry-livi/kry-livi-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.kry.se/en/)
+- [Pricing](https://www.kry.se/en/prices-payment/)
+- [Sign up](https://app.kry.se/app-link/all)
+- [Support](https://support.kry.se/hc/en-us)
+- [Blog](https://www.livi.co.uk/news/)
+- [Security](https://www.kry.se/vulnerability-disclosure/)
+- [Compliance](https://www.kry.se/en/information-on-data-ai/)
+- [Terms of service](https://www.kry.se/en/legal/eula/)
+- [Privacy policy](https://www.kry.se/en/legal/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 22.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 52.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 23.4** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kry-livi/](https://apis.io/providers/kry-livi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for KRY | LIVI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kry-livi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
